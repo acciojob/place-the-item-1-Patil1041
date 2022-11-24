@@ -1,2 +1,14 @@
-
+.holder{
+    display: flex;
+    background-color: rebeccapurple;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.holder>div{
+background-color: #ff000f;
+margin: 10px;
+padding: 20px;
+font-size: 30px;
+}
 /* Your CSS Code here. */
